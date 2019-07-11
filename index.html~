@@ -1,1 +1,58 @@
-Hello World
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Natalie Cygan</title>
+  <meta name="description" content="Natalie Cygan's personal website">
+  <meta name="author" content="Natalie Cygan">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" 
+        href="https://fonts.googleapis.com/css?family=Work+Sans:b|Roboto|Nunito+Sans:b">
+
+</head>
+
+<!-- start page body -->
+<body style="background-color:#FFFFFF">
+  <script src="js/scripts.js"></script>
+  <div class="wrapper">
+      <div class="top-container">
+
+          <div class="row" style="margin-top: 150px">
+              <div class="column-left"> 
+                <img class="img-circle" src="images/me.jpg"/>
+                <H1 style="text-align: center">Natalie Cygan</H1>
+                <p class="body-text" style="text-align: center"> I'm Natalie, and I currently am an undergrad at Stanford Univerity studying Computer Science with a concentration in artificial intelligence. I believe in and strive to work towards a sustainable and beautiful future. </p>
+                <div class="row" style="text-align: center">
+                    <a href="https://github.com/cygann"><img class="link-icon" src="images/github.png"/></a>
+                    <a href="mailto:nataliemcygan@gmail.com"><img class="link-icon" src="images/email.png" style="margin-bottom=8px"/></a>
+                </div>
+              </div>
+
+    <!-- right menu of links -->
+              <div class="column-right"> 
+                  <a href="#bottom" class="navigate-button">More about me</a>
+                  <br/>
+                  <br/>
+                  <a href="" class="navigate-button">hehe</a>
+              </div>
+            </div>
+        </div>
+
+    <!-- bottom container -->
+        <div class="bottom-container" id="bottom">
+            <div>
+                <h1>test</h1>
+                <h1> more tests</h1>
+                <h1> huh</h1>
+            </div>
+        </div>
+
+    </div>
+
+      
+</body>
+</html>
