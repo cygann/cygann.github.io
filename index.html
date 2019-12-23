@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" 
         href="https://fonts.googleapis.com/css?family=Work+Sans:b|Roboto|Nunito+Sans:b">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -24,17 +26,18 @@
           <div class="row" style="margin-top: 150px">
               <div class="column-left"> 
                 <img class="img-circle" src="imgs/me.jpg"/>
-                <H1 style="text-align: center">Natalie Cygan</H1>
+                <H1 class="name-h1" style="text-align: center">Natalie Cygan</H1>
                 <p class="body-text" style="text-align: center"> I'm Natalie, and I currently am an undergrad at Stanford Univerity studying Computer Science with a concentration in Artificial Intelligence. I believe in and strive to work towards a sustainable and beautiful future.</p>
                 <div class="row" style="text-align: center">
-                    <a href="https://github.com/cygann"><img class="link-icon" src="imgs/github.png"/></a>
+                    <a target="_blank" href="https://github.com/cygann"><img class="link-icon" src="imgs/github.png"/></a>
+                    <a target="_blank" href="https://www.goodreads.com/user/show/75712122-natalie-cygan"><img class="link-icon" src="imgs/goodreads.png"/></a>
                     <a href="mailto:nataliemcygan@gmail.com"><img class="link-icon" src="imgs/email.png" style="margin-bottom=8px"/></a>
                 </div>
               </div>
 
     <!-- right menu of links -->
               <div class="column-right"> 
-                  <a href="#about" class="navigate-button">About me</a>
+                  <a href="#about" class="navigate-button">About</a>
                   <br/>
                   <br/>
                   <a href="#projects" class="navigate-button">Projects</a>
@@ -46,7 +49,6 @@
                   <a href="" class="navigate-button">Resume</a>
                   <br/>
                   <br/>
-                  <a href="" class="navigate-button">Art</a>
               </div>
             </div>
         </div>
@@ -56,7 +58,7 @@
             <div>
                 <br/>
                 <br/>
-                <h1>About me</h1>
+                <h1 class="header-h1">About</h1>
             </div>
         </div>
 
@@ -64,9 +66,83 @@
             <div>
                 <br/>
                 <br/>
-                <h1>Projects</h1>
+                <h1 class="header-h1">Projects</h1>
+                <!-- projects -->
+                <div class="project-row-div">
+                    <div class="project-div">
+                        <!-- Top row: images and links -->
+                        <div class="project-image-div"
+                            style="background-image:url('imgs/cs221.png');background-size:cover"> 
+                            <a target="_blank" href="https://stanford-cs221.github.io/autumn2019-extra/posters/208.pdf"><img class="project-link-icon" src="imgs/link.png"/></a>
+                            <a target="_blank" href="https://github.com/cygann/classifying-food-deserts"><img class="project-link-icon" src="imgs/github.png"/></a> 
+                        </div>
+                        <div class="project-div-inner">
+
+                            <!-- Title and text -->
+                            <H1 class="project-h1">Classifying Food Deserts</H1>
+                            <p class="project-subtitle">CS 221 Final Project</p>
+                            <p class="body-text">Food Deserts are regions of the
+                            United States with limited access to affordable and
+                            nutritious food. Aimed at helping policy-makers and
+                            produce-providers understand where to best focus their
+                            efforts to alleviate food insecurity, we built models
+                            (Random forest, SVM, Neural Network) to classify areas
+                            as food deserts using socioeconomic features and to
+                            identify which features are the best predictors of food
+                            deserts.</p>
+                            <p class="project-lang">python &nbsp pytorch</p>
+                        </div>
+                    </div>
+                    <div class="project-div">
+                        <!-- Top row: images and links -->
+                        <div class="project-image-div"
+                            style="background-image:url('imgs/cs236.png');background-size:cover"> 
+                            <a target="_blank" href="https://www.youtube.com/watch?v=k7OVbZmgsTk"><img class="project-link-icon" src="imgs/link.png"/></a>
+                            <a target="_blank" href="https://github.com/gdrtodd/CS236-Project"><img class="project-link-icon" src="imgs/github.png"/></a> 
+                        </div>
+                        <div class="project-div-inner">
+
+                            <!-- Title and text -->
+                            <H1 class="project-h1">Learning to Groove: Conditional Melody Generation from Authentic Basslines</H1>
+                            <p class="project-subtitle">CS 236 Final Project</p>
+                            <p class="body-text"> Creating music with an
+                            artificial “jam session” that uses two generative 
+                            models: a bassline model that is trained first and 
+                            provides rich encodings, and a melody model that 
+                            conditions generation upon those rich encodings. We also 
+                            present a novel encoding scheme for representing 
+                            polyphonic music.</p>
+                            <p class="project-lang">python &nbsp pytorch</p>
+                        </div>
+                    </div>
+                    <div class="project-div">
+                        <!-- Top row: images and links -->
+                        <div class="project-image-div"
+                            style="background-image:url('imgs/cs231n.png');background-size:cover"> 
+                            <a target="_blank" href="https://drive.google.com/file/d/1_dxS6kpnlsOfKiZAqjIqOfByC1MUeEaJ/view"><img class="project-link-icon" src="imgs/link.png"/></a>
+                            <a target="_blank" href="https://github.com/cygann/neural-portrait"><img class="project-link-icon" 
+                                src="imgs/github.png"/></a> 
+                        </div>
+                        <div class="project-div-inner">
+
+                            <!-- Title and text -->
+                            <H1 class="project-h1">Facial and Portrait-Aware 
+                                Artistic Style Transfer</H1>
+                            <p class="project-subtitle">CS 231N Final Project</p>
+                            <p class="body-text">This was my final project for
+                            CS231N: Convolutional Neural Networks for Visual
+                            Recognition. We propose and implement a portrait-aware 
+                            style transfer method that treats the subject foreground 
+                            and background differently, as well as an additional 
+                            step to preserve facial features.</p>
+                            <p class="project-lang">python &nbsp pytorch &nbsp
+                            jupyter</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
 
     </div>
 

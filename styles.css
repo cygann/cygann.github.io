@@ -1,16 +1,30 @@
-
 html {
     scroll-behavior: smooth;
 }
 
-H1 {
+.name-h1 {
     color: white;
     font-family: 'Nunito Sans';
     font-weight: 'bold';
 }
 
+.header-h1 {
+    color: white;
+    font-family: 'Nunito Sans';
+    font-weight: 'bold';
+    padding-left: 25px;
+}
+
 .navigate-button {
     color: #C3BFBC;
+    font-family: 'Nunito Sans';
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 'bold';
+}
+
+.navigate-button:hover {
+    color: #FFFFFF;
     font-family: 'Nunito Sans';
     font-size: 28px;
     text-decoration: none;
@@ -69,4 +83,59 @@ H1 {
     padding-top: 5%;
     margin-left: 30px;
     width: 30%;
+}
+
+.project-row-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-image-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 15%;
+    padding-right: 10px;
+}
+
+.project-div {
+    background-color: #393635;
+    box-shadow: 0px 5px 7px #100F0E;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.project-div-inner {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.project-link-icon {
+    width: 25px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project-h1 {
+    color: white;
+    font-family: 'Nunito Sans';
+    font-weight: 'bold';
+    font-size: 24px;
+}
+
+.project-subtitle {
+    color: #62CCC6;
+    font-family: 'Nunito Sans';
+    font-weight: 'bold';
+    font-size: 20;
+}
+
+.project-lang {
+    font-size: 14px;
+    color: #62CCC6;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
 }
