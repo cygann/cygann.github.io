@@ -13,6 +13,15 @@
     color: #E89246;
 }
 
+.name-h1-side {
+    font-family: 'Rubik';
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+    color: #E89246;
+}
+
 .name-h1:hover {
     font-family: 'Rubik';
     font-weight: 'bold';
@@ -29,9 +38,24 @@
     margin-right: 0px;
 }
 
+.color-line-side {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    margin-right: 0px;
+}
+
 .navigate-button {
     font-family: 'Rubik';
     font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.navigate-button-side {
+    font-family: 'Rubik';
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
     font-style: normal;
@@ -48,10 +72,26 @@
 
 .big-tub {
 
-    background: #FFFBF6;
+    background: rgba(255, 251, 246, .90);
     border-radius: 10px;
     height: 500px;
     margin-right: 5%;
+}
+
+.content-tub {
+
+    height: 500px;
+    width: 80%;
+
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 15px;
+    padding-left: 25px;
+    float: left;
+
+
+    background: rgba(255, 251, 246, .85);
+    border-radius: 10px;
 }
 
 .img-me {
@@ -145,6 +185,13 @@
     padding-top: 10px;
 }
 
+.link-icon-side {
+    width: 18px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+
 .link-icon:hover {
     width: 40px;
     padding-left: 5px;
@@ -160,6 +207,13 @@
     margin-bottom: 10%;
 }
 
+.column-left-side {
+    float: left;
+    width: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 .column-right {
     float: left;
     padding-top: 5%;
@@ -171,57 +225,6 @@
     display: flex;
     flex-direction: row;
 }
-
-.project-image-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    height: 15%;
-    padding-right: 10px;
-}
-
-.project-div {
-    background-color: #393635;
-    box-shadow: 0px 5px 7px #100F0E;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 30%;
-}
-
-.project-div-inner {
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.project-link-icon {
-    width: 25px;
-    padding-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.project-h1 {
-    color: white;
-    font-family: 'Nunito Sans';
-    font-weight: 'bold';
-    font-size: 24px;
-}
-
-.project-subtitle {
-    color: #62CCC6;
-    font-family: 'Nunito Sans';
-    font-weight: 'bold';
-    font-size: 20;
-}
-
-.project-lang {
-    font-size: 14px;
-    color: #62CCC6;
-    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
-}
-
 
 .circles {
 	position: absolute;
