@@ -8,33 +8,39 @@
 .name-h1 {
     font-family: 'Rubik';
     font-weight: 'bold';
-    font-size: 72px;
+    font-size: 64px;
     line-height: 85px;
-
     color: #E89246;
 }
 
+.name-h1:hover {
+    font-family: 'Rubik';
+    font-weight: 'bold';
+    font-size: 64px;
+    line-height: 85px;
+    color: #E89246;
+    opacity: 0.5;
+}
+
 .color-line {
-    border: 3px solid;
-    border-radius:5px;
-    margin-bottom: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 8px;
     margin-right: 0px;
-    transform: rotate(0.22deg);
 }
 
 .navigate-button {
     font-family: 'Rubik';
-    font-size: 33px;
+    font-size: 25px;
     text-decoration: none;
     font-weight: bold;
     font-style: normal;
-    margin-top: 50px;
 }
 
 .navigate-button:hover {
     color: #FFFFFF;
     font-family: 'Rubik';
-    font-size: 38px;
+    font-size: 32px;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -44,6 +50,8 @@
 
     background: #FFFBF6;
     border-radius: 10px;
+    height: 500px;
+    margin-right: 5%;
 }
 
 .img-me {
@@ -52,21 +60,36 @@
     border-radius: 10px;
     margin-left: 10px;
     float: left;
+
     position:relative;
-    top:100;
-    left:-20;
+    top:60px;
+    left:-30px;
 }
 
 .intro-text {
     font-family: 'Rubik';
     font-style: normal;
-    font-size: 10;
+    font-size: 12px;
+    font-weight: normal;
+
+    color: #5A5A5A;
+}
+
+.intro-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 39px;
 
     color: #5A5A5A;
 }
 
 .intro-box {
-    margin-right: 30px;
+    display: block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
 }
 
 .header-h1 {
@@ -116,24 +139,24 @@
 }
 
 .link-icon {
-    width: 25px;
-    margin-left: 10px;
+    width: 30px;
+    margin-left: 5px;
     margin-right: 10px;
 }
 
 .column-left {
     float: left;
     width: 30%;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
     margin-bottom: 10%;
 }
 
 .column-right {
     float: left;
     padding-top: 5%;
-    margin-left: 30px;
-    width: 50%;
+    margin-left: 60px;
+    width: 60%;
 }
 
 .row-div {
