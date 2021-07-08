@@ -115,6 +115,14 @@
     color: #5A5A5A;
 }
 
+.intro-links {
+    color:#E89246;
+}
+
+.intro-links:link{
+    color:#E89246;
+}
+
 .intro-title {
     font-family: 'Rubik';
     font-style: normal;
