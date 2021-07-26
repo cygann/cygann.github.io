@@ -80,15 +80,15 @@
 
 .content-tub {
 
-    height: 500px;
+    height: 100%;
     width: 80%;
 
-    margin-left:30px;
+    margin-left:15px;
     margin-right:30px;
-    margin-top: 15px;
+    padding-top: 15px;
     padding-left: 25px;
-    float: left;
-
+    padding-right: 25px;
+    float: right;
 
     background: rgba(255, 251, 246, .85);
     border-radius: 10px;
@@ -145,6 +145,22 @@
     font-family: 'Rubik';
     font-weight: 'bold';
     padding-left: 25px;
+}
+
+.art-title {
+    display: block;
+    font-family: 'Rubik';
+    font-weight: bold;
+    padding-top: 50px;
+    color: #5A5A5A;
+}
+
+.art-name {
+    font-family: 'Rubik';
+    font-size: 13px;
+    font-style: normal;
+    color: #5A5A5A;
+    padding-top: 5px;
 }
 
 .wrapper {
@@ -299,3 +315,4 @@
 		opacity: 0.5;
 	}
 }
+
